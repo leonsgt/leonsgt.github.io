@@ -1,0 +1,88 @@
+header, nav, main, footer {display: block;}
+body {background-image: url(gradientgreen.jpg);
+	background-size: cover;
+	font-family: Arial, Verdana, sans-serif;}
+#wrapper {width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 700px;
+	max-width: 1024px;
+	color: #2E8B57;}
+header {color: #006400;
+	background-color: #3CB371;
+	background-position: center;
+	background-repeat: no-repeat;}
+h1 {text-align: center;
+	font-size: 3em;
+	padding: 10px;
+	line-height: 150%;}
+h2 {font-weight: bold;
+	font-size:2em;
+	text-decoration: underline;}
+nav {font-weight: bold;
+	float: left;
+	width: 150px;}
+nav ul {list-style-type: none;}
+nav a {text-decoration: none;}
+nav a:hover {color: white;}
+main {margin-left: 180px;
+	padding: 0 20px 20px 0;}
+.category {font-weight: bold;
+	background-color: #8FBC8F;
+	color: #006400;
+	font-size: 1.5em;}
+table{border: 2px solid #006400;
+	border-collapse: collapse;
+	background-color: white;}
+td, th {padding: 0.80em;
+	border: 1px solid #006400;}
+img {border-style: none;}
+footer {font-size: .70em;
+	font-style: italic;
+	text-align: left;
+	padding: 0;
+	margin-left: 180px;}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+@media only screen and (max-width: 1024px) { 
+body {margin: 0;
+	padding: 0;
+	background-color: #98FB98;
+	background-image: none;}
+#wrapper {width: auto;
+		min-width: 0;
+		margin: 0;}
+h1 {margin: 0;
+	text-align: center;
+	font-size: 2em;
+	line-height: 200%;}
+nav {float: none;
+	width: auto;}
+nav li {display: inline-block;}
+nav a {padding: 1em;
+	border-style: none;
+	font-size: 1.2em;}
+nav ul {text-align: center;
+	padding: 0;
+	margin: 0;}
+main {margin: 0;
+	padding: 0 1em 0 1em;
+	font-size: 90%;}
+footer {margin: 15px;}
+}
+
+@media only screen and (max-width: 768px) {
+header {background-position: center;
+	background-repeat: no-repeat;}
+h1 {font-size: 1.5em;
+	line-height: 120%;}
+nav a {display: block;
+	padding: 0.2em;
+	font-size: 1.3em;
+	border-bottom: 1px #006400;}
+nav li {display: block;}
+nav ul {text-align: left;}
+main {padding: 0 0 0 0.4em;}
+footer {padding: 0;}
+}
